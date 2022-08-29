@@ -48,3 +48,10 @@ Output:
 | Algeria     | 37100000   | 2381741 |
 +-------------+------------+---------+
 
+
+SOLUTION
+
+SELECT name, population, area  /*SELECTING NAME POPULATION AND AREA OF COUNTRIES*/
+from World /*TABLE NAME*/
+where population >= 25000000 or area >= 3000000 /* CONDITION WHERE POPULATION EQUAL OR MORE THAN 25000000  OR  AREA EQUAL OR MORE THAN 3000000 */
+
